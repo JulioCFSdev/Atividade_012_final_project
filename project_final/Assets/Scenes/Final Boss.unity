@@ -2238,7 +2238,7 @@ GameObject:
   - component: {fileID: 1565006313}
   - component: {fileID: 1565006318}
   - component: {fileID: 1565006317}
-  - component: {fileID: 1565006316}
+  - component: {fileID: 1565006319}
   m_Layer: 0
   m_Name: Toadman
   m_TagString: static_trap
@@ -2333,20 +2333,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1565006316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1565006312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c23fea69c93da964fa2e07aee9deb129, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1252746929}
-  speed: -2
 --- !u!50 &1565006317
 Rigidbody2D:
   serializedVersion: 4
@@ -2394,6 +2380,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.31, y: 0.28}
   m_EdgeRadius: 0
+--- !u!114 &1565006319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565006312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b64a458a9c44af74c9317e9f51211710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1252746929}
+  speed: -2
 --- !u!1 &1669660611
 GameObject:
   m_ObjectHideFlags: 0
