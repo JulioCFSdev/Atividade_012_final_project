@@ -2954,8 +2954,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 577832722}
     m_Modifications:
     - target: {fileID: 1980294236, guid: d676a18c2f39f374ab08a87b9e27fb55, type: 3}
+      propertyPath: m_Distance
+      value: 3.0283513
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980294236, guid: d676a18c2f39f374ab08a87b9e27fb55, type: 3}
       propertyPath: m_EnableCollision
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980294236, guid: d676a18c2f39f374ab08a87b9e27fb55, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.07834196
+      objectReference: {fileID: 0}
+    - target: {fileID: 1980294236, guid: d676a18c2f39f374ab08a87b9e27fb55, type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.7551234
       objectReference: {fileID: 0}
     - target: {fileID: 5727593824421127366, guid: d676a18c2f39f374ab08a87b9e27fb55, type: 3}
       propertyPath: m_RootOrder
@@ -2963,7 +2975,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5727593824421127366, guid: d676a18c2f39f374ab08a87b9e27fb55, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0915735
+      value: -1.03
       objectReference: {fileID: 0}
     - target: {fileID: 5727593824421127366, guid: d676a18c2f39f374ab08a87b9e27fb55, type: 3}
       propertyPath: m_LocalPosition.y
