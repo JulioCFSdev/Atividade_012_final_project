@@ -102,15 +102,19 @@ public class player : MonoBehaviour
             step_area = true;
         }
 
-        if (collision.gameObject.layer == 9)
-        {   
-            Debug.Log("Pisou na agua");
+
+
+    }
+
+    void OnTriggerEnter2D(Collision2D collider){
+        if (collider.gameObject.layer == 9)
+        {   Debug.Log("Afogou");
             GameController.instance.ShowGameOver();
             Destroy(gameObject);
         }
 
-
     }
+    
 
     void OnCollisionExit2D(Collision2D collision)
     {
@@ -119,8 +123,6 @@ public class player : MonoBehaviour
             isJumping = true;
         }
 
-        
-
-
+    
     }
 }

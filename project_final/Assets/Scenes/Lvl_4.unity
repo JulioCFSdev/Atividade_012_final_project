@@ -2980,7 +2980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5727593824421127369, guid: d676a18c2f39f374ab08a87b9e27fb55, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: static_trap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d676a18c2f39f374ab08a87b9e27fb55, type: 3}
