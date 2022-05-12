@@ -102,6 +102,13 @@ public class player : MonoBehaviour
             step_area = true;
         }
 
+        if (collision.gameObject.layer == 9)
+        {   
+            Debug.Log("Pisou na agua");
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
+        }
+
 
     }
 
@@ -111,6 +118,8 @@ public class player : MonoBehaviour
         {
             isJumping = true;
         }
+
+        
 
 
     }
