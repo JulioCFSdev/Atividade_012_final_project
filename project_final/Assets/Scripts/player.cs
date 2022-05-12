@@ -88,6 +88,12 @@ public class player : MonoBehaviour
             anim.SetBool("jump", false);
         }
 
+        if (collision.gameObject.tag == "static_trap")
+        {
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
+        }
+
 
     }
 
