@@ -982,6 +982,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 603335847547195735, guid: c7f355f80e6d6684eb20abac9a79d1fe, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 603335847547195735, guid: c7f355f80e6d6684eb20abac9a79d1fe, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7f355f80e6d6684eb20abac9a79d1fe, type: 3}
 --- !u!1 &936315147
@@ -997,9 +1005,10 @@ GameObject:
   - component: {fileID: 936315148}
   - component: {fileID: 936315152}
   - component: {fileID: 936315153}
+  - component: {fileID: 936315154}
   m_Layer: 0
   m_Name: Thwomp
-  m_TagString: Untagged
+  m_TagString: static_trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1084,7 +1093,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936315147}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.7915735, y: 3.3091505, z: -0.13707455}
+  m_LocalPosition: {x: -5.76, y: 3.26, z: -0.13707455}
   m_LocalScale: {x: 2.8827, y: 2.8827, z: 2.8827}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1103,10 +1112,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.0001
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 2
+  m_AngularDrag: 0
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -1122,7 +1131,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0053250194, y: -0.0053250566}
@@ -1138,6 +1147,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.42284954, y: 0.43479943}
   m_EdgeRadius: 0
+--- !u!114 &936315154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936315147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2e847a337358c640b073223ccc0fa25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.15
+  range: 15.7
+  checkDelay: 1
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!1 &1195730015
 GameObject:
   m_ObjectHideFlags: 0
