@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Toadman_FB : MonoBehaviour
 {
     private Rigidbody2D rig;
 
@@ -10,11 +10,14 @@ public class Enemy : MonoBehaviour
 
     public float speed;
 
+    private Animator anim;
+
 
     // Start is called before the first frame update
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
         
     }
 
@@ -29,6 +32,15 @@ public class Enemy : MonoBehaviour
         if (player.GetComponent<player>().step_area == true)
         {
            rig.velocity = new Vector2(speed, rig.velocity.y);
+           anim.SetBool("walk", true);
+        }
+    }
+
+     void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "static_trap")
+        {
+            Destroy(gameObject);
         }
     }
 }
