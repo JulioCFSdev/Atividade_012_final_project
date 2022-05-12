@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Thwomp : MonoBehaviour
+public class Thwomp : player
 {
     [Header("SpikeHead Attributes")]
     [SerializeField] private float speed;
@@ -59,7 +59,7 @@ public class Thwomp : MonoBehaviour
         attacking = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D fall)
     {
         
         Stop(); //Stop spikehead once he hits something

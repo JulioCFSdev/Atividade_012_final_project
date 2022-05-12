@@ -106,6 +106,15 @@ public class player : MonoBehaviour
 
     }
 
+    /*protected void OnTriggerEnter2D(Collider2D collider){
+        if (collider.gameObject.tag == "static_trap")
+        {
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
+        }
+
+    }*/
+
     
 
     void OnCollisionExit2D(Collision2D collision)
