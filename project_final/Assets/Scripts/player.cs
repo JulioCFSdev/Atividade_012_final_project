@@ -11,8 +11,11 @@ public class player : MonoBehaviour
     public bool isJumping;
     public bool doubleJump;
 
+    public bool step_area = false;
+
     private Rigidbody2D rig;
     private Animator anim;
+
 
     // Start is called before the first frame update
     void Start()
@@ -82,7 +85,7 @@ public class player : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == 6 || collision.gameObject.layer == 7)
+        if (collision.gameObject.layer == 6 || collision.gameObject.layer == 7 || collision.gameObject.layer == 8)
         {
             isJumping = false;
             anim.SetBool("jump", false);
@@ -94,12 +97,17 @@ public class player : MonoBehaviour
             Destroy(gameObject);
         }
 
+        if (collision.gameObject.layer == 8)
+        {
+            step_area = true;
+        }
+
 
     }
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == 6 || collision.gameObject.layer == 7)
+        if (collision.gameObject.layer == 6 || collision.gameObject.layer == 7 || collision.gameObject.layer == 8)
         {
             isJumping = true;
         }
