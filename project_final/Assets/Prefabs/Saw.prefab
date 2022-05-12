@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1980294236}
   m_Layer: 0
   m_Name: Saw
-  m_TagString: Untagged
+  m_TagString: static_trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -160,8 +160,8 @@ SpringJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.055860877, y: 0.7541213}
+  m_ConnectedAnchor: {x: -5.0487514, y: 1.5521927}
   m_AutoConfigureDistance: 1
-  m_Distance: 3.008141
+  m_Distance: 1.2465274
   m_DampingRatio: 0
   m_Frequency: 1
