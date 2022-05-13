@@ -9,7 +9,6 @@ public class player : MonoBehaviour
     public float JumpForce;
 
     public bool isJumping;
-    public bool doubleJump;
 
     public bool step_area = false;
 
@@ -58,24 +57,11 @@ public class player : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && !isJumping)
         {
 
-            if (!isJumping)
-            {
                 rig.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
-                doubleJump = true;
                 anim.SetBool("jump", true);            
-            }
-
-            else
-            {
-                if (doubleJump)
-                {
-                    rig.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
-                    doubleJump = false;
-                }
-            }
             
            
         }
