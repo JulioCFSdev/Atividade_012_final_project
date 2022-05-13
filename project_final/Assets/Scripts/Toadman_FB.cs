@@ -1,3 +1,5 @@
+using System;
+using System.Threading.Tasks;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -68,6 +70,8 @@ public class Toadman_FB : MonoBehaviour
             }
             else
             {
+                anim.SetBool("attack", true);
+                anim.SetBool("attack", false);
                 playerDestroyed = true;
                 GameController.instance.ShowGameOver();
                 Destroy(collision.gameObject);
