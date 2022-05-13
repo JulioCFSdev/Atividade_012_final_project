@@ -6,6 +6,7 @@ TagManager:
   tags:
   - static_trap
   - specific_area
+  - Ground
   layers:
   - Default
   - TransparentFX
