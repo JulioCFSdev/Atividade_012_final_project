@@ -38,7 +38,7 @@ public class Frog : MonoBehaviour
         if(colliding)
         {
             transform.localScale = new Vector2(transform.localScale.x * -1f, transform.localScale.y);
-            speed = -speed;
+            speed *= -1f;
         }
     }
     bool playerDestroyer = false;
