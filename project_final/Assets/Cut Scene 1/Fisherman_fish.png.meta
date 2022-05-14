@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 040449fdc4d3e734fa566421ec8c7e79
+guid: d456969a8cbddd34d962119269c50fe3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,13 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: voodoo_idle_0
+      name: Fisherman_fish_0
       rect:
         serializedVersion: 2
-        x: 15
+        x: 9
         y: 0
-        width: 30
-        height: 36
+        width: 35
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09694ee6fa568994a807eaf9a1e4a727
-      internalID: 789993279
+      spriteID: 7c804a61dc8e60947ab69ccb3d91fda2
+      internalID: -1062369802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: voodoo_idle_1
+      name: Fisherman_fish_1
       rect:
         serializedVersion: 2
-        x: 65
+        x: 57
         y: 0
-        width: 28
-        height: 36
+        width: 35
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,20 +139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f994fc1efa29a0418d8ce26e13b398c
-      internalID: -1171938364
+      spriteID: e81729387b818b74eb24e22fce8d2a04
+      internalID: -89384837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: voodoo_idle_2
+      name: Fisherman_fish_2
       rect:
         serializedVersion: 2
-        x: 114
+        x: 105
         y: 0
-        width: 28
-        height: 36
+        width: 35
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cd4053ebe3cecb4897ccd4195173a61
-      internalID: -2127222084
+      spriteID: 826fa795b8e869b4087e11511cee189f
+      internalID: 885973562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: voodoo_idle_3
+      name: Fisherman_fish_3
       rect:
         serializedVersion: 2
-        x: 160
+        x: 153
         y: 0
-        width: 30
-        height: 36
+        width: 35
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f57558987ae473e4a89a23756095548e
-      internalID: 146800912
+      spriteID: 055bf39db564c684094fad44e8a38e40
+      internalID: 1002421853
       vertices: []
       indices: 
       edges: []
@@ -198,10 +198,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      voodoo_idle_2: -2127222084
-      voodoo_idle_3: 146800912
-      voodoo_idle_0: 789993279
-      voodoo_idle_1: -1171938364
+      Fisherman_fish_1: -89384837
+      Fisherman_fish_2: 885973562
+      Fisherman_fish_0: -1062369802
+      Fisherman_fish_3: 1002421853
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
