@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class Voodoo : MonoBehaviour
@@ -10,6 +11,7 @@ public class Voodoo : MonoBehaviour
      
      public GameObject player;
      public float speed;
+     public string lvlName;
 
      public Transform headPoint;
 
@@ -44,6 +46,7 @@ public class Voodoo : MonoBehaviour
                 circleCollider2D.enabled = false;
                 rig.bodyType = RigidbodyType2D.Kinematic;
                 Destroy(gameObject, 0.33f);
+                SceneManager.LoadScene(lvlName);
             }
             else
             {
@@ -52,6 +55,7 @@ public class Voodoo : MonoBehaviour
                 Destroy(col.gameObject);
 
             }
+
         }
     }
 }

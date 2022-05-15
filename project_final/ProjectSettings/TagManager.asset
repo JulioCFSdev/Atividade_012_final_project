@@ -3,22 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - static_trap
-  - specific_area
-  - Ground
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - 
   - Water
   - UI
-  - Ground
-  - Floor
-  - specific_area
-  - Water
-  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
