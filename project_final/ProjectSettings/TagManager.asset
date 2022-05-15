@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - static_trap
+  - specific_area
+  - Ground
   layers:
   - Default
   - TransparentFX
