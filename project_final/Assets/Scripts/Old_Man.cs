@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dialogue : MonoBehaviour
+public class Old_Man : MonoBehaviour
 {
     public Sprite profile;
     public string[] speechTxt;
@@ -35,10 +35,10 @@ public class Dialogue : MonoBehaviour
         }
         else if(onRadious)
         {
-            anim.SetBool("player_hit", true);
+            anim.SetBool("hit", true);
         }
         else{
-            anim.SetBool("player_hit", false);
+            anim.SetBool("hit", false);
         }
     }
 
