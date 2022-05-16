@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextLevelPoint : MonoBehaviour
+public class NextLevel : MonoBehaviour
 {
     public string lvlName;
 
@@ -17,4 +17,3 @@ public class NextLevelPoint : MonoBehaviour
         
     }
 }
-
