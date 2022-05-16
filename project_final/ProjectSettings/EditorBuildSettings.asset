@@ -54,6 +54,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Final Boss 2.unity
     guid: 944934a87012f5c4da0d1c21272612c3
   - enabled: 1
-    path: Assets/Scenes/Victory_Screen.unity
+    path: Assets/Scenes/Credits.unity
     guid: 5e4dbe31976fd954aa5c84007bde5482
+  - enabled: 1
+    path: Assets/Scenes/Victory_Screen.unity
+    guid: 6f6ff4cdd5533774b832e3a783d5f0ea
   m_configObjects: {}
