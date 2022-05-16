@@ -1276,10 +1276,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6551762712597999618, guid: 938a417d387c5ef48bcf89822859a43f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.9375
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551762712597999618, guid: 938a417d387c5ef48bcf89822859a43f, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6551762712597999619, guid: 938a417d387c5ef48bcf89822859a43f, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -919024100, guid: e8d93385b4f1f6e45b55bd3d8d568d15, type: 3}
+    - target: {fileID: 6551762712597999619, guid: 938a417d387c5ef48bcf89822859a43f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6551762712597999620, guid: 938a417d387c5ef48bcf89822859a43f, type: 3}
       propertyPath: m_Name
       value: Next lvl
