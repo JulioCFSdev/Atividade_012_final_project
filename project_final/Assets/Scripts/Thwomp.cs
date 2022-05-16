@@ -21,8 +21,8 @@ public class Thwomp : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collider){
         if(collider.gameObject.CompareTag("Player")){
             Block.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
-            Block.GetComponent<Rigidbody2D>().gravityScale = 7;
-            Block.GetComponent<Rigidbody2D>().mass = 400;
+            Block.GetComponent<Rigidbody2D>().gravityScale = 2;
+            Block.GetComponent<Rigidbody2D>().mass = 50;
 
         }
     }
