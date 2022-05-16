@@ -3143,6 +3143,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1342115767}
     m_Modifications:
+    - target: {fileID: 5497486392242729333, guid: 93ac49581e5191142868572ef3f7eccf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 648665893}
+    - target: {fileID: 5497486392242729333, guid: 93ac49581e5191142868572ef3f7eccf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 5497486392242729333, guid: 93ac49581e5191142868572ef3f7eccf, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Lvl_3
+      objectReference: {fileID: 0}
     - target: {fileID: 5497486393540894877, guid: 93ac49581e5191142868572ef3f7eccf, type: 3}
       propertyPath: m_Name
       value: Game Over Panel
