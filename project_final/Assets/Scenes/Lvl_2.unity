@@ -4663,5 +4663,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Next lvl
       objectReference: {fileID: 0}
+    - target: {fileID: 6551762712597999621, guid: 938a417d387c5ef48bcf89822859a43f, type: 3}
+      propertyPath: lvlName
+      value: Lvl_3_cutscene
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 938a417d387c5ef48bcf89822859a43f, type: 3}
