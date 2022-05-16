@@ -17,7 +17,7 @@ public class History_Texts : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Z) && !started)
+        if(!started)
         {
             started = true;
             hc.Speech(speechTxt);
