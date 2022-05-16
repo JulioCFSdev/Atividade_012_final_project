@@ -8,6 +8,7 @@ public class History_Texts : MonoBehaviour
     public string[] speechTxt;
 
     private HistoryControl hc;
+    bool started = false;
 
     void Start()
     {
@@ -16,8 +17,9 @@ public class History_Texts : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Z))
+        if(Input.GetKeyDown(KeyCode.Z) && !started)
         {
+            started = true;
             hc.Speech(speechTxt);
         }
     }
