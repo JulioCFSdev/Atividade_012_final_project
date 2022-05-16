@@ -53,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Final Boss 2.unity
     guid: 944934a87012f5c4da0d1c21272612c3
+  - enabled: 1
+    path: Assets/Scenes/Victory_Screen.unity
+    guid: 5e4dbe31976fd954aa5c84007bde5482
   m_configObjects: {}
