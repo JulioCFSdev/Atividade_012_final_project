@@ -48,6 +48,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Lvl_4.unity
     guid: 58a30fdbeb8fe344b81535df266b1bea
   - enabled: 1
+    path: Assets/Scenes/Final_Boss_cutscene.unity
+    guid: 6126de300bca2e34e93f9ea351608fca
+  - enabled: 1
     path: Assets/Scenes/Final Boss 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
