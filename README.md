@@ -19,6 +19,9 @@
 - https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbnl6NzlSbmlPUEIwNGUxM1Vrc21zRXZGaUx4QXxBQ3Jtc0trSVpELV9IZGJvTDA1dTZuZzFvTEFiQUR4eVFXbDdQS0kwcEpiQWozNWNpanczRHNSWHpvT1hobTYxdWRJWm9CWFY1ODdXRkpPMWN4LXFsenpuak9Ib0VIZG1VdDBjeE1raEVUZG1XS1BnNmhxam5lQQ&q=https%3A%2F%2Fwww.crieseusjogos.com.br%2Fgame_assets%2F&v=Vt7VtkWb3R4
 - https://foozlecc.itch.io/trap-pack
 
+## Gameplay
+https://youtu.be/-ALua5WHt3Q
+
 ## Breve sinopse do jogo
 O jogo chama-se "Frog Revolution", traz consigo elementos de fantasia, de nonsense e de temática pós-apocalíptica. Nele, um homem de vivência bucólica e campestre sai de sua zona de conforto ao confrontar-se com um terrível suplício em sua vida, um mal que assolou o mundo: uma revolução de sapos de estatura similar à humana comandada por um sapo feitiçeiro. Por isso, o protagonista é forçado a cortar o mal pela raiz e, assim, vai em busca de respostas e de vingança.
 Essa aventura compreende jogabilidades de 2D linear, cenas de história e uma série de fases até o boss final. Os comandos são explicitados durante o jogo.
